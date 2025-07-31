@@ -22,6 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   submitBtn.addEventListener("click", function (event) {
     event.preventDefault(); // 폼 기본 제출 막기
-    window.location.href = "../profile/profile.html";
+    window.location.href = "../profile.html";
   });
 });
