@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>같이사요 - 채팅</title>
+  <link rel="stylesheet" href="/style/chat.css" />
+  <link rel="stylesheet" href="/style/navigationbar.css" />
+</head>
+<body>
+  <!-- 상단 -->
+<header class="chat-header">
+  <div class="chat-header-left">
+    <img src="/img/logo.png" alt="로고" class="chat-icon" />
+    <h1 class="chat-title">채팅</h1>
+  </div>
+  <img src="/img/alram.png" alt="알림" class="bell-icon" />
+</header>
+
+<div class="chat-filters">
+  <button class="filter-btn selected">전체</button>
+  <button class="filter-btn">안 읽은 채팅</button>
+</div>
+
+
+  <!-- 채팅 목록 -->
+  <main class="chat-list">
+    <div class="chat-item">
+      <img src="/img/profile.png" alt="프로필" class="profile-img" />
+      <div class="chat-content">
+        <div class="chat-top">
+          <span class="chat-name">별이님</span>
+          <span class="chat-location">서초구 사랑동</span>
+          <span class="chat-time">19분 전</span>
+        </div>
+        <div class="chat-message">안녕하세요</div>
+      </div>
+      <img src="/img/item.png" alt="게시글" class="post-thumb" />
+    </div>
+
+    <!-- 필요한 만큼 chat-item 반복 -->
+    <div class="chat-item">
+      <img src="/img/profile.png" alt="프로필" class="profile-img" />
+      <div class="chat-content">
+        <div class="chat-top">
+          <span class="chat-name">별이님</span>
+          <span class="chat-location">서초구 사랑동</span>
+          <span class="chat-time">19분 전</span>
+        </div>
+        <div class="chat-message">안녕하세요</div>
+      </div>
+      <img src="/img/item.png" alt="게시글" class="post-thumb" />
+    </div>
+  </main>
+
+  <!-- 하단 네비게이션 -->
+  <nav class="bottom-nav">
+    <ul class="nav-items">
+      <li class="nav-item">
+        <a href="../main.html"><img src="../img/home.png" alt="홈" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../category.html"><img src="../img/category.png" alt="카테고리" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../map.html"><img src="../img/map.png" alt="지도" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../chat.html"><img src="../img/chat.png" alt="채팅" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../mypage.html"><img src="../img/mypage.png" alt="마이페이지" /></a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>
