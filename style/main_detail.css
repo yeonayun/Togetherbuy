@@ -1,0 +1,192 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+.detail-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.product-image {
+  width: 100%;
+  margin-bottom: 16px;
+  margin-top: 80px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-icon {
+  font-size: 24px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.user-location {
+  font-size: 10px;
+  color: #888;
+  font-weight: 400;
+}
+
+.recruit-status {
+  font-size: 14px;
+  color: #3B3B3B;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 18px 0 6px;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.tags {
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #c8d4c9;
+  color: #3B3B3B;
+  padding: 4px 10px;
+  margin-right: 6px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.product-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+
+.product-link {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.product-link a {
+  color: #8B8B8B;
+  word-break: break-all;
+  text-decoration: none;
+}
+
+.link-with-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.copy-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+.copy-btn img {
+  width: 15px;
+  height: 15px;
+}
+
+.deadline {
+  font-size: 12px;
+  color: #8B8B8B;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 6px;
+}
+
+.contact-btn {
+  width: 350px;
+  background: #558B52;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+}
+
+.user-image {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.divider-line {
+  border-bottom: 1px solid #ddd;
+  margin: 12px 0;
+}
+
+.top-bar {
+  position: absolute;
+  margin-top: 15px;
+  left: 0;
+  right: 0;
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.top-icons-right {
+  display: flex;
+  gap: 12px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

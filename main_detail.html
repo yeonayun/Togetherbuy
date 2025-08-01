@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>같이사요 - 상세페이지</title>
+  <link rel="stylesheet" href="/style/main_detail.css" />
+</head>
+<body>
+    <!-- 상단 아이콘 바 -->
+<div class="top-bar">
+  <button class="back-btn" onclick="location.href='../main.html'">&lt;</button>
+  <div class="top-icons-right">
+    <img src="/img/heart.png" alt="찜하기" class="icon" />
+    <img src="/img/share.png" alt="공유하기" class="icon" />
+    <img src="/img/more.png" alt="더보기" class="icon" />
+  </div>
+</div>
+
+    <img class="product-image" src="/img/eyebrow.png" alt="에뛰드 아이브로우" />
+  <div class="detail-container">
+
+    <div class="detail-content">
+      <div class="user-info">
+        <div class="user-profile">
+          <img class="user-image" src="/img/profile.png" alt="사용자 프로필" />
+          <div>
+            <div class="user-name">별이님</div>
+            <div class="user-location">서초구 서초동 19분 전</div>
+          </div>
+        </div>
+        <div class="recruit-status">1명 모집중</div>
+      </div>
+      <div class="divider-line"></div>
+
+      <h2 class="product-title">에뛰드 아이브로우 1+1 공구해요~</h2>
+      <div class="price">가격: 3000원</div>
+
+      <div class="tags">
+        <span class="tag">1개</span>
+        <span class="tag">화장품</span>
+      </div>
+
+      <p class="product-desc">
+        1+1 상품 6000원으로 공구하면 1개당 3000원입니다~<br />
+        무료배송이고 자세한 사항은 채팅으로 문의주세요!
+      </p>
+
+      <div class="product-link">
+        <span>상품 링크</span><br />
+        <span class="link-with-copy">
+            <a href="https://zigzag.kr/catalog/products/109554811" target="_blank">
+            https://zigzag.kr/catalog/products/109554811
+            </a>
+            <button class="copy-btn" onclick="copyLink()">
+            <img src="/img/icon_copy.png" alt="링크 복사" />
+            </button>
+        </span>
+        </div>
+
+
+      <div class="deadline">마감 2일 15시간 34분 전</div>
+
+      <button class="contact-btn">작성자에게 연락하기</button>
+    </div>
+  </div>
+
+  <script src="../js/main_detail.js"></script>
+</body>
+</html>

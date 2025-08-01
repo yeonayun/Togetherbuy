@@ -11,3 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".group-card");
+
+  cards.forEach((card) => {
+    card.addEventListener("click", () => {
+      window.location.href = "../main_detail.html";
+    });
+  });
+});
