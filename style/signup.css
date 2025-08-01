@@ -101,7 +101,9 @@ button.active {
   display: none;
 }
 
-#checkIdBtn, #requestCodeBtn, #verifyBtn {
+#checkIdBtn,
+#requestCodeBtn,
+#verifyBtn {
   height: 44px;
   padding: 0 16px;
   border: none;
@@ -173,7 +175,7 @@ select {
   padding: 16px;
   border-bottom: 1px solid #ddd;
   position: relative;
-  margin-bottom: 60px; 
+  margin-bottom: 60px;
 }
 
 

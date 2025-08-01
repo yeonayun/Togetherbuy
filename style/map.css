@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
   background-color: #fff;
-  padding-bottom: 80px; /* 하단바 영역 확보 */
+  padding-bottom: 80px;
 }
 
 .map-title {

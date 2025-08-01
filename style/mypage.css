@@ -43,7 +43,6 @@ body {
   text-align: center;
 }
 
-/* 프로필 */
 .profile-section {
   display: flex;
   flex-direction: column;
@@ -123,7 +122,6 @@ body {
   justify-content: center;
   gap: 8px; 
 }
-
 
 .npay-btn {
   background-color: #EAEAEA;

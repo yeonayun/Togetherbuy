@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,23 +8,24 @@
   <link rel="stylesheet" href="/style/profile.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
 </head>
+
 <body>
   <div class="container">
     <div class="top-bar">
-      <button class="back-btn" onclick="location.href='../signup.html'">&lt;</button>
+      <button class="back-btn" oncslick="location.href='../signup.html'">&lt;</button>
       <span class="top-title">프로필 설정</span>
     </div>
 
     <form class="signup-form">
-      
+
       <!-- 프로필 이미지 -->
       <div class="profile-img-wrapper">
-      <img src="../img/logo.png" alt="기본 프로필" class="profile-img" id="profilePreview" />
-      <label for="profileImage" class="camera-icon">
-        <img src="../img/camera.png" alt="카메라 아이콘" />
-      </label>
-      <input type="file" id="profileImage" accept="image/*" hidden />
-    </div>
+        <img src="../img/logo.png" alt="기본 프로필" class="profile-img" id="profilePreview" />
+        <label for="profileImage" class="camera-icon">
+          <img src="../img/camera.png" alt="카메라 아이콘" />
+        </label>
+        <input type="file" id="profileImage" accept="image/*" hidden />
+      </div>
 
       <!--닉네임-->
       <label>닉네임<span class="required">*</span></label>
@@ -32,12 +34,12 @@
         <button type="button" id="checkIdBtn">중복확인</button>
       </div>
 
-       <!-- 생년월일 -->
-        <label>생년월일</label>
-        <div class="row date-row">
-          <input type="text" id="birthdate" placeholder="년. 월. 일" readonly />
-          <img src="../img/calendar.png" alt="달력 아이콘" class="calendar-icon" id="calendarIcon" />
-        </div>
+      <!-- 생년월일 -->
+      <label>생년월일</label>
+      <div class="row date-row">
+        <input type="text" id="birthdate" placeholder="년. 월. 일" readonly />
+        <img src="../img/calendar.png" alt="달력 아이콘" class="calendar-icon" id="calendarIcon" />
+      </div>
 
 
       <!-- 주소 -->
@@ -64,7 +66,6 @@
 
   <script src="/js/profile.js"></script>
   <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-  
-
 </body>
+
 </html>
