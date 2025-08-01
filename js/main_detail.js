@@ -4,3 +4,12 @@ function copyLink() {
     alert("상품 링크가 복사되었습니다!");
   });
 }
+
+function openModal() {
+  document.getElementById('modal').style.display = 'flex';
+}
+
+function closeModal() {
+  document.getElementById('modal').style.display = 'none';
+}
+

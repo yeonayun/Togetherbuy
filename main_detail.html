@@ -33,8 +33,21 @@
       </div>
       <div class="divider-line"></div>
 
-      <h2 class="product-title">에뛰드 아이브로우 1+1 공구해요~</h2>
-      <div class="price">가격: 3000원</div>
+      <div class="title-price-row">
+        <div class="text-info">
+          <h2 class="product-title">에뛰드 아이브로우 1+1 공구해요~</h2>
+          <div class="price">가격: 3000원</div>
+        </div>
+        <button class="group-btn" onclick="openModal()">공구참여</button>
+      </div>
+
+      <!-- 모달 -->
+      <div id="modal" class="modal-overlay">
+        <div class="modal-content">
+          <p class="modal-text">공구에 참여하시겠습니까?<br />해당 게시물 작성자에게 알림이 갑니다.</p>
+          <button class="modal-confirm-btn" onclick="closeModal()">공구참여</button>
+        </div>
+      </div>
 
       <div class="tags">
         <span class="tag">1개</span>
