@@ -1,0 +1,131 @@
+.top-bar {
+  position: relative;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 0 16px;
+}
+
+.back-btn {
+  position: absolute;
+  left: 16px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.chat-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bell-icon {
+  position: absolute;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.chat-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-icon {
+  width: 60px;
+  height: auto;
+}
+
+.chat-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.bell-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.chat-filters {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px 10px;
+  margin-top: 20px;
+}
+
+.filter-btn {
+  padding: 6px 10px;
+  border: 1.5px solid #aaa;
+  border-radius: 30px;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  color: #8B8B8B;
+  font-weight: 400;
+}
+
+.filter-btn.selected {
+  border: 1.5px solid #8B8B8B;
+  background-color: #EAEAEA;
+  color: #8B8B8B;
+}
+
+
+.chat-list {
+  padding: 0 20px;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+}
+
+.chat-content {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.chat-top {
+  display: flex;
+  gap: 6px;
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.chat-name {
+  font-weight: 500;
+  color: #000;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.chat-message {
+  font-size: 12px;
+  color: #999;
+}
+
+.post-thumb {
+  width: 40px;
+  height: auto;
+}
