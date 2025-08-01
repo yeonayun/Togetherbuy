@@ -141,7 +141,9 @@ body {
   border-radius: 8px;
   cursor: pointer;
   display: block;
+  margin: 0 auto;
 }
+
 
 .user-image {
   width: 36px;
