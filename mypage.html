@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>마이페이지</title>
+  <link rel="stylesheet" href="style/mypage.css" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header class="mypage-header">
+    <div class="header-top">
+      <img src="/img/logo.png" alt="로고" class="header-icon" />
+      <img src="/img/setting.png" alt="설정" class="settings-icon" />
+    </div>
+    <h1 class="mypage-title">마이페이지</h1>
+  </header>
+
+  <!-- 프로필 -->
+  <section class="profile-section">
+    <div class="profile-left">
+      <div class="profile-img">
+        <img src="/img/profile.png" alt="프로필 이미지" />
+      </div>
+      <div class="profile-info">
+        <p class="nickname">별이님</p>
+        <p class="location">서초구</p>
+      </div>
+    </div>
+
+    <div class="profile-right">
+      <button class="profile-button">프로필 보기</button>
+
+      <div class="npay-section">
+        <div class="npay-box">
+          <div class="npay-label">N페이</div>
+          <div class="npay-amount">0원</div>
+        </div>
+        <div class="npay-buttons">
+          <button class="npay-btn">충전</button>
+          <button class="npay-btn">송금</button>
+          <button class="npay-btn">결제</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 공구 활동 -->
+  <section class="activity-section">
+  <a href="../mypage_detail.html" class="activity-item">
+    <div class="icon-circle">
+      <img src="/img/gonggu.png" alt="나의 공구" />
+    </div>
+    <p>나의 공구</p>
+  </a>
+  <a href="../mypage_detail.html" class="activity-item">
+    <div class="icon-circle">
+      <img src="/img/busket.png" alt="참여 공구" />
+    </div>
+    <p>참여 공구</p>
+  </a>
+  <a href="../mypage_detail.html" class="activity-item">
+    <div class="icon-circle">
+      <img src="/img/heart.png" alt="관심 공구" />
+    </div>
+    <p>관심 공구</p>
+  </a>
+</section>
+
+
+  <!-- 위치 설정 -->
+  <section class="location-section">
+    <div class="location-item">
+      <img src="/img/map1.png" alt="내 동네 설정" />
+      <p>내 동네 설정</p>
+    </div>
+    <div class="location-item">
+      <img src="/img/map2.png" alt="위치 인증" />
+      <p>위치 인증</p>
+    </div>
+  </section>
+
+  <!-- 하단 네비게이션 -->
+  <nav class="bottom-nav">
+    <ul class="nav-items">
+      <li class="nav-item"><a href="../main.html"><img src="../img/home.png" alt="홈" /></a></li>
+      <li class="nav-item"><a href="../category.html"><img src="../img/category.png" alt="카테고리" /></a></li>
+      <li class="nav-item"><a href="../map.html"><img src="../img/map.png" alt="지도" /></a></li>
+      <li class="nav-item"><a href="../chat.html"><img src="../img/chat.png" alt="채팅" /></a></li>
+      <li class="nav-item"><a href="../mypage.html"><img src="../img/mypage.png" alt="마이페이지" /></a></li>
+    </ul>
+  </nav>
+</body>
+</html>
