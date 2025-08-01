@@ -47,18 +47,21 @@ body {
 
 .filter-btn {
   padding: 6px 10px;
-  border: 1px solid #aaa;
+  border: 1.5px solid #aaa;
   border-radius: 30px;
   background-color: #fff;
-  font-size: 13px;
+  font-size: 14px;
   cursor: pointer;
   color: #8B8B8B;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .filter-btn.selected {
-  border: 2px solid #aaa;
+  border: 1.5px solid #8B8B8B;
+  background-color: #EAEAEA;
+  color: #8B8B8B;
 }
+
 
 .chat-list {
   padding: 0 20px;
@@ -69,6 +72,7 @@ body {
   align-items: center;
   padding: 16px 0;
   border-bottom: 1px solid #eee;
+  margin-top: 10px;
 }
 
 .profile-img {
