@@ -54,3 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//회원가입하기버튼 -> main.html이동
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".signup-form");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); // 기본 제출 막기
+      window.location.href = "../main.html"; // 이동
+    });
+  });

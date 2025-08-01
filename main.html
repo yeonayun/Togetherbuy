@@ -3,57 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>같이사요 메인</title>
-  <link rel="stylesheet" href="/main/main.css" />
+  <title>같이사요 - 메인</title>
+  <link rel="stylesheet" href="../style/main.css" />
+  <link rel="stylesheet" href="../style/navigationbar.css" />
 </head>
 <body>
   <header class="main-header">
-    <div class="region">
-      <img src="/img/location.png" alt="위치 아이콘" />
+  <div class="top-logo-location">
+    <img src="/img/logo.png" alt="같이사요 로고" class="top-logo" />
+    <div class="location">
+      <img src="/img/map.png" alt="위치 아이콘" />
       <span>서초구</span>
     </div>
-    <div class="actions">
-      <img src="/img/search.png" alt="검색" />
-      <img src="/img/bell.png" alt="알림" />
-    </div>
-  </header>
-
-  <div class="category-tabs">
-    <button class="tab active">전체</button>
-    <button class="tab">모집중</button>
-    <button class="tab">마감</button>
-    <button class="tab">완료</button>
   </div>
+  <div class="header-icons">
+    <img src="/img/search.png" alt="검색" />
+    <img src="/img/alram.png" alt="알림" />
+  </div>
+</header>
 
-  <main class="post-list">
+
+  <section class="filter-section">
+    <button class="filter-btn active">전체</button>
+    <button class="filter-btn">모집중</button>
+    <button class="filter-btn">마감</button>
+    <button class="filter-btn">완료</button>
+  </section>
+
+  <main class="card-list">
     <!-- 카드 1 -->
-    <div class="post-card">
-      <div class="post-header">
-        <div class="user">
-          <img src="/img/user-icon.png" alt="유저" />
-          <span>별이님</span>
-        </div>
+    <div class="group-card">
+      <div class="card-header">
+        <img src="/img/profile.png" class="profile-img" alt="프로필" />
+        <span class="nickname">별이님</span>
         <span class="d-day">D-3</span>
       </div>
-      <div class="post-content">
-        <img src="/img/product.png" alt="상품 이미지" class="product-img" />
-        <div class="post-info">
-          <p class="title">에뛰드 아이브로우 1+1 공구해요~<br>3000원</p>
-          <p class="location">서초구 사랑동 19분 전</p>
+      <div class="card-content">
+        <img src="/img/item.png" class="product-img" alt="상품" />
+        <div class="product-info">
+          <p class="title">에뛰드 아이브로우 1+1 공구해요~</p>
+          <p class="price">3000원</p>
+          <p class="location-time">서초구 사랑동 19분 전</p>
           <div class="tags">
             <span class="tag">1개</span>
             <span class="tag">화장품</span>
           </div>
+          <p class="recruit">1명 모집중</p>
         </div>
       </div>
-      <div class="post-footer">
-        <span>1명 모집중</span>
-      </div>
     </div>
-
-    <!-- 복붙해서 더 추가 가능 -->
+    <!-- 같은 카드 반복 표시 -->
   </main>
 
-  <button class="fab">+</button>
+  <button class="add-btn">+</button>
+
+  <!-- 하단 네비게이션 -->
+  <nav class="bottom-nav">
+    <ul class="nav-items">
+      <li class="nav-item">
+        <a href="../main.html"><img src="../img/home.png" alt="홈" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../category.html"><img src="../img/category.png" alt="카테고리" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../map.html"><img src="../img/map.png" alt="지도" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../chat.html"><img src="../img/chat.png" alt="채팅" /></a>
+      </li>
+      <li class="nav-item">
+        <a href="../mypage.html"><img src="../img/mypage.png" alt="마이페이지" /></a>
+      </li>
+    </ul>
+  </nav>
+
+  <script src="/js/main.js"></script>
 </body>
 </html>
