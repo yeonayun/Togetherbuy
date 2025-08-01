@@ -116,8 +116,6 @@ body {
   cursor: pointer;
   padding: 0;
   margin: 0;
-  margin-left: 3px;
-  margin-top: 5px;
 }
 
 .copy-btn img {
@@ -143,7 +141,6 @@ body {
   border-radius: 8px;
   cursor: pointer;
   display: block;
-  margin: 10px auto;
 }
 
 .user-image {
