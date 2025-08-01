@@ -60,6 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function (e) {
       e.preventDefault(); // 기본 제출 막기
-      window.location.href = "../main.html"; // 이동
+      window.location.href = "../login.html"; // 이동
     });
   });
