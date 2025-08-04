@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>같이사요 - 공구등록</title>
+  <link rel="stylesheet" href="/style/gonggu-add.css" />
+  
+</head>
+<body>
+  <header class="category-header">
+    <div class="top-bar">
+      <button class="back-btn" onclick="location.href='../main.html'">&lt;</button>
+      <span class="top-title">공구등록</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="image-upload">
+      <div class="image-box">
+        <img src="../img/camera-icon.png" alt="사진 업로드" />
+        <span class="img-count">0/10</span>
+      </div>
+      <button class="temp-save">임시저장</button>
+    </section>
+
+    <form class="form">
+      <label for="title">제목<span class="required">*</span></label>
+      <input type="text" id="title" placeholder="글 제목" />
+
+      <label for="unit">가격<span class="required">*</span></label>
+      <div class="unit-price-row">
+        <button type="button" class="unit-btn selected">1개</button>
+        <button type="button" class="unit-btn">1kg</button>
+        <button type="button" class="plus-btn">+</button>
+      </div>
+      <input type="text" placeholder="₩ 가격" />
+
+      <label>카테고리<span class="required">*</span></label>
+      <div class="category-row">
+        <button type="button" class="category-btn">식품</button>
+        <button type="button" class="category-btn selected">화장품</button>
+        <button type="button" class="category-btn">의류</button>
+        <button type="button" class="category-btn">생활용품</button>
+      </div>
+
+      <label for="participants">참여인원수<span class="required">*</span></label>
+      <input type="number" id="participants" placeholder="참여인원수" />
+
+      <label for="deadline">마감일<span class="required">*</span></label>
+      <div class="deadline-wrapper">
+        <input type="text" id="deadline" placeholder="공구 마감일" />
+        <img src="/img/calendar.png" alt="달력" class="calendar-icon" />
+      </div>
+
+      <label for="description">자세한 설명<span class="required">*</span></label>
+      <textarea id="description" placeholder="상품에 대한 자세한 설명을 입력하세요."></textarea>
+
+      <label for="link">상품 링크</label>
+      <input type="text" id="link" placeholder="상품 링크" />
+
+      <button type="submit" class="submit-btn">공구 등록</button>
+    </form>
+  </main>
+  <script src="/js/gonggu-add.js"></script>
+</body>
+</html>
