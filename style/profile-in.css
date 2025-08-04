@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0 20px;
+}
+
+.category-header {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.top-bar {
+  position: relative;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.back-btn {
+  position: absolute;
+  left: 0;
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.top-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+  background-color: #eee;
+  margin-top: -70px;
+  margin-left: 15px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.nickname {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.tag.green {
+  background-color: #558B52;
+}
+
+.edit-btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: -50px;
+  margin-top: 20px;
+}
+
+.certification-box {
+  background-color: #e9f2eb;
+  padding: 16px;
+  margin: 20px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #333;
+  font-weight: 600;
+}
+
+.certification-box li {
+  margin-bottom: 6px;
+}
+
+.link-box {
+  border-bottom: 1px solid #ddd;
+  padding: 30px 0;
+}
+
+.link-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.arrow {
+  color: #555;
+  margin-right: 30px;
+}
+
+.review-list {
+  border-bottom: 1px solid #ddd;
+  padding-top: 25px;
+}
+
+.review-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.review-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  background-color: #ccc;
+}
+
+.review-content p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.profile-info-box {
+  background-color: #e7f0e8;
+  padding: 16px 20px;
+  margin: 30px -20px 10px;
+}
+
+.profile-info-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.profile-info-box li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
